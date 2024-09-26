@@ -54,5 +54,21 @@ You can run this code form "start.bat" or from command line:
                      1 = by Extremal Points 
                      2 = by centroidal alignment
 - 1 = visualise the result; 0 = without visualisation
-  
 
+## Features
+Preliminary Alignment: The script identifies the key points (YV, YB, and Base) of both source and target point clouds to perform a rough alignment. The process includes translation and rotation to align key points.
+ICP Fine-Tuning: Optionally, the script applies ICP to fine-tune the alignment by iteratively minimizing the distance between points in the source and target clouds.
+Customizable Tolerance and Iteration Limits: The script supports custom settings for convergence tolerance and maximum iterations during the ICP phase.
+## Dependencies
+This script requires the following Python packages:
+
+numpy
+scipy
+matplotlib
+joblib
+You can install the required packages using pip:
+
+bash
+### pip install numpy scipy matplotlib joblib 
+...
+mailto:alekstar64@gmail.com
