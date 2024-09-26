@@ -68,7 +68,7 @@ matplotlib
 joblib
 You can install the required packages using pip:
 
-bash
+bash:
 ### pip install numpy scipy matplotlib joblib 
-...
+
 mailto:alekstar64@gmail.com
