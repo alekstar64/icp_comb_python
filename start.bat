@@ -1,0 +1,1 @@
+python icp_script.py source_points.json target_points.json 0.001 50 0 1
