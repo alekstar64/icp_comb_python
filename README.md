@@ -46,13 +46,13 @@ In this preliminary step, we attempt to position the YV points of both clouds so
 You can run this code form "start.bat" or from command line:
 python icp_script.py source_points.json target_points.json 0.001 50 0 1
 where:
-  source_points.json  source cloude
-  target_points.json  target cloude
-  0.001 tollerance
-  50 max itterations for centroidal alignment
-  0 - using algoritm 0 = by Extremal Points & centroidal alignment 
+- source_points.json  source cloude
+- target_points.json  target cloude
+- 0.001 tollerance
+- 50 max itterations for centroidal alignment
+- 0 - using algoritm 0 = by Extremal Points & centroidal alignment 
                      1 = by Extremal Points 
                      2 = by centroidal alignment
-  1 = visualise the result; 0 = without visualisation
+- 1 = visualise the result; 0 = without visualisation
   
 
