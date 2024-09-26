@@ -44,8 +44,8 @@ In this preliminary step, we attempt to position the YV points of both clouds so
 - Perform tests with different point clouds to verify stability of the alignment procedure.
 
 You can run this code form "start.bat" or from command line:
-python icp_script.py source_points.json target_points.json 0.001 50 0 1
-where:
+## python icp_script.py source_points.json target_points.json 0.001 50 0 1
+### where:
 - source_points.json  source cloude
 - target_points.json  target cloude
 - 0.001 tollerance
